@@ -33,7 +33,7 @@ public class SeckillDaoTest {
     @Test
     public void reduceNumber() {
         Date killTime=new Date();
-        int updateCount=seckillDao.reduceNumber(1000L,killTime);
+        int updateCount=seckillDao.reduceNumber(1005L,killTime);
         System.out.println("updateCount"+updateCount);
     }
 
