@@ -46,7 +46,7 @@ public class SeckillDaoTest {
 
     @Test
     public void queryAll() {
-        List<Seckill> seckills=seckillDao.queryAll(0,100);
+        List<Seckill> seckills=seckillDao.queryAll(0,1000);
         for(Seckill seckill:seckills)
             System.out.println(seckill);
     }
