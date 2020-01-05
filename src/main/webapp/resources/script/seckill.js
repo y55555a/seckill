@@ -34,7 +34,7 @@ var seckill = {
         } else if (nowTime < startTime) {
             //秒杀未开始,计时事件绑定
             var killTime = new Date(Number(startTime) + 1000);//todo 防止时间偏移
-            seckillBox.countdown(killTime, function (event) {
+            seckillBox.countdown(killTime, function (event) {       //function回调函数
                 //时间格式
                 var format = event.strftime('秒杀倒计时: %D天 %H时 %M分 %S秒 ');
                 seckillBox.html(format);
