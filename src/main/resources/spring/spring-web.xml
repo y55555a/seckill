@@ -38,4 +38,3 @@
     <context:component-scan base-package="org.seckill.web"/>
 
 </beans>
-
